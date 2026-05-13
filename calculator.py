@@ -15,7 +15,7 @@ def factorial(a):
         return result
 def division(a, b):
     return a / b
-def multiply(a,b):
+def multiply(a, b):
     return a * b
 def squared(a):
     return a * a
