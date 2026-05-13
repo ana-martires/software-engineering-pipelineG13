@@ -1,3 +1,4 @@
+from calculator import add, sub, factorial
 from calculator import add, sub, squared
 
 def test_add():
@@ -7,6 +8,10 @@ def test_add():
 def test_sub():
     assert sub(10, 4) == 6
 
+def test_factorial():
+    assert factorial(0) == 1
+    assert factorial(1) == 1
+    assert factorial(5) == 120
 def test_division():
     assert division(4, 2) == 2
  
