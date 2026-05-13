@@ -1,4 +1,4 @@
-from calculator import add, sub
+from calculator import add, sub, factorial
 
 def test_add():
     assert add(2, 3) == 5
@@ -6,3 +6,8 @@ def test_add():
 
 def test_sub():
     assert sub(10, 4) == 6
+
+def test_factorial():
+    assert factorial(0) == 1
+    assert factorial(1) == 1
+    assert factorial(5) == 120
