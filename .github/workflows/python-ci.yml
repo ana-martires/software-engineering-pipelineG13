@@ -46,3 +46,5 @@ jobs:
 
       - name: Run tests with coverage
         run: pytest --cov=. --cov-report=term-missing --tb=short
+        env:
+          PYTHONPATH: .
