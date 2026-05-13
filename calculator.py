@@ -26,3 +26,7 @@ def multiply(a, b):
 
 def squared(a):
     return a * a
+
+
+def power(a, b):
+    return a ** b
