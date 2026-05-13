@@ -15,7 +15,7 @@ def test_factorial():
 def test_division():
     assert division(4, 2) == 2
  
- def test_multiply ():
+def test_multiply ():
     assert multiply(2, 5) == 10
 
 def test_squared():
