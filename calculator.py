@@ -13,3 +13,9 @@ def factorial(a):
         for i in range(2, a + 1):
             result *= i
         return result
+def division(a, b):
+    return a / b
+def multiply(a,b):
+    return a * b
+def squared(a):
+    return a * a
