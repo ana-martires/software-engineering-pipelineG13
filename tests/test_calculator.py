@@ -6,3 +6,6 @@ def test_add():
 
 def test_sub():
     assert sub(10, 4) == 6
+
+def test_division():
+    assert division(4, 2) == 2
