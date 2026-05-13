@@ -1,4 +1,4 @@
-from calculator import add, sub
+from calculator import add, sub, squared
 
 def test_add():
     assert add(2, 3) == 5
@@ -9,3 +9,12 @@ def test_sub():
 
 def test_division():
     assert division(4, 2) == 2
+ 
+ def test_multiply ():
+    assert multiply(2, 5) == 10
+
+def test_squared():
+    assert squared(4) == 16
+    assert squared(0) == 0
+    assert squared(-3) == 9
+
