@@ -1,4 +1,4 @@
-from calculator import add, sub, factorial, division, multiply, squared
+from calculator import add, sub, factorial, division, multiply, squared, power
 
 
 def test_add():
@@ -27,3 +27,9 @@ def test_squared():
     assert squared(4) == 16
     assert squared(0) == 0
     assert squared(-3) == 9
+
+
+def test_power():
+    assert power(2, 3) == 8
+    assert power(5, 0) == 1
+    assert power(4, 2) == 16
