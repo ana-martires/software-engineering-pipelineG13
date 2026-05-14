@@ -1,4 +1,14 @@
-from calculator import add, sub, factorial, division, multiply, squared, power, sqrt
+from calculator import (
+    add,
+    modulo,
+    sub,
+    factorial,
+    division,
+    multiply,
+    squared,
+    power,
+    sqrt,
+)
 
 
 def test_add():
@@ -38,3 +48,8 @@ def test_power():
     assert power(2, 3) == 8
     assert power(5, 0) == 1
     assert power(4, 2) == 16
+
+
+def test_modulo():
+    assert modulo(10, 3) == 1
+    assert modulo(8, 4) == 0
