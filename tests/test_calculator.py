@@ -1,7 +1,4 @@
-from calculator import add, sub, sqrt
-from calculator import add, sub, factorial
-from calculator import add, sub, squared
-from calculator import add, sub, factorial, division, multiply, squared, power
+from calculator import add, sub, factorial, division, multiply, squared, power, sqrt
 
 
 def test_add():
