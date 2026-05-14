@@ -1,5 +1,6 @@
 import math
 
+
 def add(a, b):
     return a + b
 
@@ -7,8 +8,10 @@ def add(a, b):
 def sub(a, b):
     return a - b
 
+
 def sqrt(a):
     return math.sqrt(a)
+
 
 def factorial(a):
     if a == 0 or a == 1:
