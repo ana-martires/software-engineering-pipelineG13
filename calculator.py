@@ -9,17 +9,28 @@ def sub(a, b):
 
 def sqrt(a):
     return math.sqrt(a)
+
 def factorial(a):
     if a == 0 or a == 1:
         return 1
-    else: 
+    else:
         result = 1
         for i in range(2, a + 1):
             result *= i
         return result
+
+
 def division(a, b):
     return a / b
-def multiply(a,b):
+
+
+def multiply(a, b):
     return a * b
+
+
 def squared(a):
     return a * a
+
+
+def power(a, b):
+    return a ** b
